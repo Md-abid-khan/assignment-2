@@ -1,0 +1,53 @@
+.flexing{
+    display: flex;
+}
+.griding{
+    display: grid;
+}
+
+
+/* header nav section */
+
+.navbar{
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.nav-anchor{
+    text-decoration: none;
+    gap: 20px;
+}
+.btn{
+    color: aliceblue;
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+}
+.contact{
+    background-color: rgba(254, 163, 1, 1);
+}
+
+.header-section{
+    /* width: 1158px;
+    height: 575px;
+     */
+    
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.btn-color{
+    background-color: black;
+}
+
+@media screen and (max-width: 390px) {
+    .navbar{
+        height: 70px;
+        margin-left: -10px;
+        padding: 5px;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+}
