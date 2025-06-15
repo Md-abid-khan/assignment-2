@@ -191,6 +191,19 @@ nav {
 .story-card {
     background-color: white;
     border-radius: 20px;
+    position: relative;
+}
+.story-date{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    color: white;
+    width: 175px;
+    height: 38px;
+    border: none;
+    border-radius: 48px;
+    text-align: center;
+    background-color: #3CD8E8;
 }
 
 /* footer section */
@@ -266,4 +279,11 @@ gap: 10px;
         gap: 50px;
         
     }
+    .story-date{
+        width: 120px;
+        font-size: 14px;
+        bottom: 110px;
+    left: 10px;
+    }
+
 }
