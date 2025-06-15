@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+.azeret-mono-fonting {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+
 .flexing{
     display: flex;
 }
@@ -48,10 +61,25 @@
 .S-curriculum{
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    /* width: 367px;
+    height: 475px; */
+    
 }
+.size{
+    width: 367px;
+    height: 475px;
+    border-radius: 19px; 
+}
+
+
 .curriculum{
     justify-content: space-between;
     align-items: center;
+    /* gap: 30x; */
+    /* width: 367px;
+    height: 475px; */
+    margin: 80px auto;
 }
 .arrow{
     width: 60px;
@@ -64,11 +92,44 @@
 }
 .arrow-parent{
     justify-content:center;
+    padding-bottom: 80px;
     
     
 
 }
 
+/* Our stories */
+
+.cards{
+    grid-template-columns: repeat(2, 1fr);
+    width: 290px;
+    height: 301px;
+    gap: 15px;
+    /* border-radius: 16px; */
+    /* border: 1px solid white; */
+}
+.card5{
+    justify-content: space-between;
+    /* align-items: center; */
+    /* width: 540px;
+    height: 630px; */
+    gap: 15px;
+    /* border-radius: 16px; */
+}
+.story-section{
+    align-items: center;
+    flex-direction: column;
+    width: 1440px;
+    height: 1000px;
+
+}
+#story-title{
+    text-align: center;
+}
+
+/* /* footer section  */
+
+.footer{background-color: rgba(1, 172, 253, 1);}
 
 @media screen and (max-width: 390px) {
     .navbar{
@@ -85,5 +146,8 @@
     .arrow{
         display: none;
         /* visibility: hidden; */
+    }
+    .curriculum{
+        flex-direction: column;
     }
 }
